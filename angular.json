@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "sailpoint"
+  "defaultProject": "sailpoint",
+  "cli": {
+    "analytics": false
+  }
 }

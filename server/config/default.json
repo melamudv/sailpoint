@@ -1,0 +1,4 @@
+{
+  "port": 3000,
+  "mongoUri": "mongodb+srv://sailpoint123:sailpoint123@cluster0.dsbdc.mongodb.net/sailpointDB?retryWrites=true&w=majority"
+}
