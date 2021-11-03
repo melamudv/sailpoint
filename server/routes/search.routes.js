@@ -5,8 +5,8 @@ const router = express.Router()
 
 router.post('/', async(req, res) => {
   try{
-    const {country, limit} = req.body;
-    const regex = new RegExp(country, 'i')
+    const {name, limit} = req.body;
+    const regex = new RegExp(name, 'i')
     const cities = await City.find({ name: {$regex: regex} }).sort({ name: "asc" })
       .limit(limit);
     res.json({payload: cities})

@@ -19,7 +19,7 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   searchCities(query: string): Observable<ICity[]>{
-    return this.http.post<{payload: Array<ICity>}>(this.URL, {country: query, limit: this.limitResults},
+    return this.http.post<{payload: Array<ICity>}>(this.URL, {name: query, limit: this.limitResults},
       { headers: this.getHttpHeaders()}).pipe(
       map(data => data.payload)
     );
