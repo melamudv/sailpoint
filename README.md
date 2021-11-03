@@ -24,11 +24,11 @@ Limit of max response from backend (optimisation, sorting by asc)
 min css 
 all component in one file (small app without folder strucure)
 
-## Server sise
+## Server side
 
-Folder structure (models, routes, config)
-Connect to cloudDB of mongo
-Sturcture of folder for future scalling 
+Folder structure (models, routes, config).
+Connect to cloudDB of mongo.
+Sturcture of folder for future scalling .
 
 ## Run scripts
 
