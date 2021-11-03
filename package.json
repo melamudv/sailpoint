@@ -5,8 +5,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "server": "nodemon server.js --prefix server",
+    "client": "ng serve",
     "server:install": "npm install --prefix server",
     "server:run": "npm run server --prefix server",
+    "dev": "concurrently \"ng serve\" \"npm run server\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
