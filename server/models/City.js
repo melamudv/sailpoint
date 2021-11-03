@@ -1,5 +1,4 @@
 const {Schema, model} = require('mongoose')
-const {any} = require("codelyzer/util/function");
 
 const schema = new Schema({
       _id: {type: String},

@@ -1,5 +1,4 @@
 const express = require('express');
-//const {Router, response} = require('express')
 const City = require('../models/City')
 const router = express.Router()
 
