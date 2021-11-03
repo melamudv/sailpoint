@@ -12,6 +12,8 @@ name: "xxx",
 limit:10
 }
 
+Run 2 command together `npm run dev`
+
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
