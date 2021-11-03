@@ -18,6 +18,10 @@ Run 2 command together `npm run dev`
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Test
+
+Run `ng test` to run unit test. Add test to service and comment.
+
 ## Road map Client
 
 2 section one input second template with return data from server
