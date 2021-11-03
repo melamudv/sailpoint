@@ -16,7 +16,7 @@ export interface ICity {
 export class DataService {
   protected URL = 'http://localhost:3000/api/search/';
   protected limitResults = 10;
-  constructor(private http: HttpClient) { }
+  constructor(public http: HttpClient) { }
 
   searchCities(query: string): Observable<ICity[]>{
     return this.http.post<{payload: Array<ICity>}>(this.URL, {name: query, limit: this.limitResults},
